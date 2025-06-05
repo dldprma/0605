@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  background-color: #00539c;
+  color: #eea47f;
+  font-family: "Pretendard-Regular";
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#join {
+  margin-right: 15px;
+  font-family: "Pretendard-Regular";
+  box-sizing: border-box;
+}
+
+#join:hover {
+  border-bottom: 1px solid #eea47f;
+}
+
+#login:hover {
+  border-bottom: 1px solid #eea47f;
+} */
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  place-content: center;
+  padding: 30px;
+}
+
+.before {
+  background-color: white;
+  border-radius: 20px;
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  color: black;
+}
+
+.after {
+  background-color: white;
+  border-radius: 20px;
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  color: black;
+}
+
+#before-text {
+  display: flex;
+  justify-content: center;
+}
+
+#after-text {
+  display: flex;
+  justify-content: center;
+}
+
+.todolist {
+  grid-row: 2;
+}
+
+.todo-input {
+  min-width: 300px;
+  min-height: 30px;
+  border-radius: 10px;
+}
+
+.write {
+  font-family: "Pretendard-Regular";
+}
+
+.write:hover {
+  border-bottom: 1px solid #eea47f;
+}
